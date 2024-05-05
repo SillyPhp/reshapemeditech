@@ -1,0 +1,22 @@
+{
+    "name": "moonlandsoft/bootui-typeahead",
+    "description": "The twitter bootstrap typeahead extension for yii 2 framework",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","typeahead","autocomplete","bootstrap","twitter bootstrap"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Moh Khoirul Anam",
+            "email": "moh.khoirul.anaam@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "moonlandsoft/helpers": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "bootui\\typeahead\\": ""
+        }
+    }
+}
